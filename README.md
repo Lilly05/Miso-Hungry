@@ -1,2 +1,2 @@
 # Miso-Hungry
-Bestes Ramen Restaurant von Applis lol
+Bestes Ramen Restaurant von Applis (und Platti) lol
