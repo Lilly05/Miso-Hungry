@@ -1,0 +1,308 @@
+.container{
+    display: grid;
+    grid-template-rows: 150px 65px auto 150px;
+    grid-template-columns: 25% auto 25%;
+}
+
+.header, header__title{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: 	#2e5d63;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 80px;
+    padding-left: 150px;
+    background-color: #699e99;
+}
+
+.header__logo {
+    height: 155px;
+    padding-left: 75%;
+    float: right;
+    margin-top: -205px;
+}
+
+.menu{
+    background-color: #9fd2c2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.menu__elem {
+    float: left;
+    list-style: none;
+    margin-right: 140px;
+    margin-left: 200px;
+}
+
+.menu__button, .main__reservation__button {
+    cursor: pointer;
+    border-radius: 7px;
+    border-color: #2e5d63;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #2e5d63;
+    color: #9fd2c2;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    transition-duration: 0.4s;
+}
+
+.menu__button:hover, .main__reservation__button:hover {
+    color: #699e99;
+}
+
+.menu__button:active, .main__reservation__button:active {
+    background-color: #2e5d63;
+}
+
+.main__picture{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 27%;
+}
+
+.main{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.main__elem{
+    text-align: center;
+    font-family: "American Typewriter";
+    color: #04202e;
+    font-size: 20px;
+}
+
+.main__link:link, .main__link:visited{
+    text-decoration: none;
+    color: 	#2e5d63;
+}
+
+.main__link:hover, .main__link:active{
+    text-decoration: underline;
+    color: #9fd2c2;
+}
+
+.main__menu1, .main__menu2, .main__menu3, .main__menu4, .main__menu5{
+    width: 300px;
+}
+
+.main__menu1__description, .main__menu2__description, .main__menu3__description, .main__menu4__description, .main__menu5__description{
+    font-family: "American Typewriter";
+    color: #04202e;
+    font-size: 30px;
+}
+
+.main__menu1, .main__menu3, .main__menu5{
+    margin-left: 15%;
+    margin-top: 150px;
+}
+
+.main__menu1__description, .main__menu3__description, .main__menu5__description{
+    margin-left: 550px;
+    margin-top: -150px;
+}
+
+.main__menu2, .main__menu4{
+    margin-left: 55%;
+    margin-top: 150px;
+}
+
+.main__menu2__description, .main__menu4__description {
+    margin-left: 150px;
+    margin-top: -150px;
+}
+
+.main__phonenumber, .main__email, .main__adress{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "American Typewriter";
+    color: #04202e;
+    font-size: 20px;
+}
+
+.main__reservation{
+    text-align: center;
+    font-family: "American Typewriter";
+    color: #04202e;
+    font-size: 20px;
+}
+
+.main__description{
+    font-size: 15px;
+}
+.main__formedBy{
+    margin-top: 100px;
+    text-align: left;
+}
+
+.main__formedBy__image{
+    width: 200px;
+    margin-left: 550px;
+    margin-top: -125px;
+}
+
+.main__imageProduction{
+    width: 400px;
+    margin-left: 30%;
+}
+
+.main__reservation__label{
+    margin-right: 85px;
+}
+
+.main__reservation__textbox{
+    margin-right: 50px;
+}
+
+.main__reservation__date{
+    margin-right: 12%;
+}
+
+.main__opening{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    float: left;
+    margin-left: -250px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.footer{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.footer__elem{
+    float: left;
+    padding-left: 120px;
+    padding-top: 100px;
+    text-decoration: none;
+    color: #04202e;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.footer__elem__title{
+    padding-top: 85px;
+    color: darkgrey;
+}
+
+@media only screen and (max-width: 1760px){
+    .menu__elem {
+        margin-right: 80px;
+        margin-left: 105px;
+    }
+
+    .main__imageProduction{
+        margin-left: 25%;
+    }
+
+    .footer__elem{
+        padding-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1600px){
+    .main__menu1, .main__menu2, .main__menu3, .main__menu4, .main__menu5{
+        margin-left: 15%;
+        margin-top: 150px;
+    }
+
+    .main__menu1__description, .main__menu2__description, .main__menu3__description, .main__menu4__description, .main__menu5__description{
+        margin-left: 550px;
+        margin-top: -200px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 1360px){
+    .container{
+        display: grid;
+        grid-template-rows: 80px 60px auto 50px;
+        grid-template-columns: auto;
+    }
+
+    .header, header__title{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    .header__title{
+        text-align: left;
+    }
+
+    .header__logo {
+        height: 85px;
+        margin-top: -80px;
+    }
+
+    .menu__elem {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .menu__button, .main__reservation__button{
+        font-size: 10px;
+    }
+
+    .main__picture{
+        margin-left: 25%;
+    }
+
+    .main__imageProduction{
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .main__elem{
+        font-size: 15px;
+    }
+
+    .main__opening{
+        float: none;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .main__formedBy__image{
+        width: 150px;
+        margin-left: 35%;
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+
+    .main__formedBy{
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .main__menu1__description, .main__menu2__description, .main__menu3__description, .main__menu4__description, .main__menu5__description{
+        font-size: 20px;
+        margin-left: 25%;
+        margin-top: 50px;
+    }
+
+    .main__menu1, .main__menu2, .main__menu3, .main__menu4, .main__menu5{
+        margin-left: 20%;
+        margin-top: 50px;
+    }
+
+    .footer__elem{
+        padding-left: 60px;
+    }
+}
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ramen Town</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="media/ramenLogo.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<header class="header">
+    <h1 class="header header__title">Miso Hungry</h1>
+    <img src="media/ramenLogo.jpg" alt="Simple ramen logo" class="header__logo" >
+</header>
+<nav class="menu">
+    <ul>
+        <li class="menu__elem"><button class="menu__button" onclick="document.location='main.html'">Home</button></li>
+        <li class="menu__elem"><button class="menu__button" onclick="document.location='pages/aboutUs.html'">About us</button></li>
+        <li class="menu__elem"><button class="menu__button" onclick="document.location='pages/menu.html'">Menu</button></li>
+        <li class="menu__elem"><button class="menu__button" onclick="document.location='pages/contact.html'">Contact</button></li>
+    </ul>
+</nav>
+<main class="main">
+    <p class="main__elem main__opening"><b>Opening hours</b><br> Monday 08.00 – 18.00 <br> Tuesday 08.00 – 22.00 <br>Wednesday 08.00 – 22.00 <br>Thursday 08.00 – 22.00 <br>Friday 08.00 – 00.00<br>Saturday 08.00 – 00.00 <br>Sunday 09.00 – 18.00 </p>
+    <img src="media/ramenHomepage.jpg" alt="Picture of our ramen" class="main__picture">
+    <p class="main__elem">Ramen Town is a fantastic ramen restaurant! <br> We'll be serving you
+    the most delicious ramen you have ever eaten!</p>
+    <img alt="Making ramen" class="main__imageProduction" src="media/ramenProduction.jpeg">
+    <p class="main__elem">Our ramen are always freshly made!</p>
+    <h2 class="main__reservation">Table reservation</h2>
+    <form class="main__reservation">
+        <label class="main__reservation__label" for="fname">First name:</label>
+        <label for="lname">Last name:</label><br>
+        <input class="main__reservation__textbox" type="text" id="fname" name="fname">
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="people">Number of people:<br><br></label>
+        <select id="people" name="people">
+            <option value="1 person">1 person</option>
+            <option value="2 people">2 people</option>
+            <option value="3 people">3 people</option>
+            <option value="4 people">4 people</option>
+            <option value="5 people">5 people</option>
+        </select><br><br>
+        <label class="main__reservation__label" for="date">Choose a date:</label>
+        <label for="time">Select the time:</label><br><br>
+        <input class="main__reservation__date" type="date" id="date" name="date">
+        <input type="time" id="time" name="time"><br><br>
+        <label for="email">Enter your email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <input class="main__reservation__button" type="submit" value="Place your reservation">
+    </form>
+</main>
+    <footer class="footer">
+        <a class="footer__elem" href="pages/aboutUs.html">About us</a>
+        <a class="footer__elem" href="pages/menu.html">Menu</a>
+        <a class="footer__elem" href="pages/contact.html">Contact</a>
+        <p class="footer__elem footer__elem__title">Ramen Town</p>
+    </footer>
+</div>
+</body>
+</html>
