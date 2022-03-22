@@ -9,11 +9,11 @@
     grid-row-end: 1;
     grid-column-start: 1;
     grid-column-end: 4;
-    color: 	#2e5d63;
+    color: #ca7400;
     font-family: 'Varela Round', sans-serif;
     font-size: 80px;
     padding-left: 150px;
-    background-color: #699e99;
+    background-color: 	#f4ab22;
 }
 
 .header__logo {
@@ -24,7 +24,7 @@
 }
 
 .menu{
-    background-color: #9fd2c2;
+    background-color: #ffdc80;
     grid-row-start: 2;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -41,24 +41,24 @@
 .menu__button, .main__reservation__button {
     cursor: pointer;
     border-radius: 7px;
-    border-color: #2e5d63;
+    border-color: 	#ca7400;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 7px;
     padding-bottom: 7px;
-    background-color: #2e5d63;
-    color: #9fd2c2;
+    background-color: #f4ab22;
+    color: #ca7400;
     font-family: 'Varela Round', sans-serif;
     font-size: 15px;
     transition-duration: 0.4s;
 }
 
 .menu__button:hover, .main__reservation__button:hover {
-    color: #699e99;
+    color: #ffbd16;
 }
 
 .menu__button:active, .main__reservation__button:active {
-    background-color: #2e5d63;
+    background-color: #ffdc80;
 }
 
 .main__picture{
@@ -143,7 +143,7 @@
 }
 .main__formedBy{
     margin-top: 100px;
-    text-align: left;
+    text-align: center;
 }
 
 .main__formedBy__image{
